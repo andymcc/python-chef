@@ -1,0 +1,7 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: roush-agent
+Source: https://github.com/rpedde/roush-agent
+Files: *
+Copyright: Noah Kantrowitz
+License: DUNNO-1
+  I have no idea how this is licensed

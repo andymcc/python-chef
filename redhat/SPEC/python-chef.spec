@@ -1,14 +1,14 @@
 %define ver 1
 
 Name:       python-chef
-Version:    1.0
+Version:    0.2.1
 Release:    %{ver}%{?dist}
 Summary:	Python implementation of a Chef API client.
 
 Group:		System
 License:	None
 URL:		https://github.com/rpedde/opencenter-agent
-Source0:	python-chef-1.0.tgz
+Source0:	python-chef-0.2.1.tgz
 
 BuildRequires:  python-setuptools
 Requires:	python-requests

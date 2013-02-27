@@ -11,7 +11,6 @@ URL:		https://github.com/rpedde/opencenter-agent
 Source0:	python-chef-0.2.1.tgz
 
 BuildRequires:  python-setuptools
-Requires:	python-requests
 Requires:	python >= 2.6
 
 BuildArch: noarch
@@ -33,7 +32,7 @@ CFLAGS="$RPM_OPT_FLAGS" %{__python} setup.py build
 %files
 %defattr(-,root,root)
 %{python_sitelib}/chef*
-%{python_sitelib}/PyChef-0.2.1-py2.7.egg-info*
+%{python_sitelib}/PyChef*
 %doc
 
 %clean

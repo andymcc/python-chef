@@ -9,7 +9,7 @@ else:
     try:
         _eay = CDLL('libcrypto.so')
     except OSError:
-        _eay = CDLL('libcrypto.so.1.0.0')
+        _eay = CDLL('libcrypto.so.10')
 
 #unsigned long ERR_get_error(void);
 ERR_get_error = _eay.ERR_get_error
